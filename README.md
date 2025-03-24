@@ -1,7 +1,7 @@
 ## Engenharia de sistemas
 
 
-### buscar um sistema para ser moddelado ao longo do semestre
+### buscar um sistema para ser modelado ao longo do semestre
  A missão será sobre um drone de asa fixa para resgastes em enchentes
 #### Requisitos
 
