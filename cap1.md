@@ -6,22 +6,29 @@ Os elementos incluem todo o hardware, software, equipamentos, instalações, pes
 
 O valor agregado pelo sistema como um todo, além do que é contribuído independentemente por suas partes, é criado principalmente pelo relacionamento entre essas partes, ou seja, pela forma como estão interconectadas. Trata-se de uma maneira de visualizar o "panorama geral" ao tomar decisões técnicas.
 
-> A engenharia de sistemas busca atender aos requisitos funcionais, físicos e operacionais das partes interessadas dentro do ambiente de uso pretendido, ao longo do ciclo de vida planejado do sistema, considerando custos, prazos e outras restrições. Além disso, é uma metodologia que auxilia na contenção dos custos do ciclo de vida de um sistema. Em outras palavras, engenharia de sistemas é uma forma lógica de pensar.
+<span style="color:blue">  A engenharia de sistemas busca atender aos requisitos funcionais, físicos e operacionais das partes interessadas dentro do ambiente de uso pretendido, ao longo do ciclo de vida planejado do sistema, considerando custos, prazos e outras restrições. Além disso, é uma metodologia que auxilia na contenção dos custos do ciclo de vida de um sistema. Em outras palavras, engenharia de sistemas é uma forma lógica de pensar.
 Gerentes técnicos, engenheiros-chefes ou outros cargos similares podem desempenhar funções relacionadas à engenharia de sistemas, mas, para este documento, o termo "engenheiro de sistemas" será utilizado.
+</span>
 
-> O papel e as responsabilidades do engenheiro de sistemas podem variar de projeto para projeto, dependendo do tamanho e da complexidade, bem como de fase para fase ao longo do ciclo de vida. Em projetos grandes, pode haver um ou mais engenheiros de sistemas. Já em projetos menores, o próprio gerente do projeto pode assumir essas práticas. No entanto, independentemente de quem assuma essas responsabilidades, as funções da engenharia de sistemas devem ser realizadas.
+
+
+<span style="color:orange"> O papel e as responsabilidades do engenheiro de sistemas podem variar de projeto para projeto, dependendo do tamanho e da complexidade, bem como de fase para fase ao longo do ciclo de vida. Em projetos grandes, pode haver um ou mais engenheiros de sistemas. Já em projetos menores, o próprio gerente do projeto pode assumir essas práticas. No entanto, independentemente de quem assuma essas responsabilidades, as funções da engenharia de sistemas devem ser realizadas.
+</span>
+
 
 A designação exata dos papéis e responsabilidades do engenheiro de sistemas pode variar. O engenheiro de sistemas líder garante que o sistema atenda tecnicamente às necessidades e requisitos definidos e que uma abordagem adequada de engenharia de sistemas esteja sendo seguida. Ele supervisiona as atividades de engenharia de sistemas do projeto realizadas pela equipe técnica, dirigindo, comunicando, monitorando e coordenando as tarefas. Além disso, ele revisa e avalia os aspectos técnicos do projeto para garantir que os processos de engenharia de sistemas e subsistemas estejam funcionando corretamente, evoluindo o sistema do conceito ao produto final. Toda a equipe técnica está envolvida no processo de engenharia de sistemas.
 
-O engenheiro de sistemas geralmente desempenha um papel fundamental no desenvolvimento do conceito de operações (ConOps) e na arquitetura do sistema resultante, definindo limites, alocando requisitos, avaliando compromissos de design, equilibrando riscos técnicos entre os sistemas, definindo e avaliando interfaces e supervisionando as atividades de verificação e validação, entre outras tarefas.
+O engenheiro de sistemas geralmente desempenha um papel fundamental no desenvolvimento do conceito de operações **(ConOps)** e na arquitetura do sistema resultante, definindo limites, alocando requisitos, avaliando compromissos de design, equilibrando riscos técnicos entre os sistemas, definindo e avaliando interfaces e supervisionando as atividades de verificação e validação, entre outras tarefas.
 
-Normalmente, o engenheiro de sistemas lidera o planejamento técnico e tem a responsabilidade principal de documentar muitos dos planos técnicos, requisitos e especificações, documentos de verificação e validação, pacotes de certificação e outros registros técnicos.
+ Normalmente, o engenheiro de sistemas lidera o planejamento técnico e tem a responsabilidade principal de documentar muitos dos planos técnicos, requisitos e especificações, documentos de verificação e validação, pacotes de certificação e outros registros técnicos.
 
-> Em resumo, o engenheiro de sistemas possui habilidades na arte e ciência de equilibrar interações organizacionais, custos e aspectos técnicos em sistemas complexos. Tanto o engenheiro de sistemas quanto a organização de suporte são essenciais para auxiliar no Planejamento e Controle de Programas e Projetos (PP&C), fornecendo informações precisas e oportunas sobre custos e cronogramas para as atividades técnicas.
+<span style="color:blue">Em resumo, o engenheiro de sistemas possui habilidades na arte e ciência de equilibrar interações organizacionais, custos e aspectos técnicos em sistemas complexos. Tanto o engenheiro de sistemas quanto a organização de suporte são essenciais para auxiliar no Planejamento e Controle de Programas e Projetos **(PP&C)**, fornecendo informações precisas e oportunas sobre custos e cronogramas para as atividades técnicas.</span>
+
+
 
 A engenharia de sistemas trata de compensações e concessões, adotando uma visão ampla e transversal do sistema, em vez de uma abordagem focada em uma única disciplina. Ela não apenas garante que o projeto esteja correto (atenda aos requisitos), mas também que seja o projeto certo (habilite os objetivos operacionais e atenda às expectativas das partes interessadas).
 
-> A engenharia de sistemas desempenha um papel fundamental na organização do projeto. Gerenciar um projeto envolve três objetivos principais: gerenciar os aspectos técnicos, gerenciar a equipe do projeto e gerenciar custos e cronogramas. Esses três elementos estão interligados.
+<span style="color:green">A engenharia de sistemas desempenha um papel fundamental na organização do projeto. Gerenciar um projeto envolve três objetivos principais: gerenciar os aspectos técnicos, gerenciar a equipe do projeto e gerenciar custos e cronogramas. Esses três elementos estão interligados.</span>
 
 A engenharia de sistemas foca nas características técnicas das decisões, incluindo aspectos técnicos, custos e cronogramas, fornecendo essas informações ao gerente do projeto. Já a função de Planejamento e Controle de Projetos (PP&C) é responsável por identificar e controlar os custos e prazos do projeto. O gerente de projeto tem a responsabilidade geral de gerenciar a equipe e garantir que o projeto entregue um sistema tecnicamente correto dentro dos custos e prazos estabelecidos.
 
