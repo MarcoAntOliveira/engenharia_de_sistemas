@@ -148,7 +148,7 @@ Esse processo contínuo de **verificação e validação** é essencial para gar
 
 ### Considerações sobre Verificação e Validação ao Longo das Fases
 
-Os métodos de **verificação e validação** podem (e devem) **variar entre as fases do projeto**, à medida que o design avança. A **validação precoce** (especialmente nas fases **Pre-Phase A e Phase A**) é crucial, pois ainda é possível realizar **ajustes no design** com um custo reduzido. Quanto mais cedo uma falha ou necessidade de ajuste for identificada, menor será o impacto financeiro e técnico no projeto.
+Os métodos de **verificação e validação** podem (e devem) **variar entre as fases do projeto**, à medida que o design avança.<span style="color:yellow">A **validação precoce** (especialmente nas fases **Pre-Phase A e Phase A**) é crucial, pois ainda é possível realizar **ajustes no design** com um custo reduzido. Quanto mais cedo uma falha ou necessidade de ajuste for identificada, menor será o impacto financeiro e técnico no projeto.</span>
 
 A pergunta-chave durante todo o processo deve ser:
 **“Estamos construindo o produto certo para nossos usuários e outras partes interessadas?”**
@@ -166,18 +166,19 @@ O principal objetivo da **engenharia de sistemas** é garantir que o sistema sej
 Nem sempre há um único design "ótimo". Muitas vezes, diferentes alternativas podem atender ao critério de **custo-benefício**, exigindo **estudos de trade-off** para identificar o melhor compromisso entre **custo e desempenho**.
 
 #### Tipos de Decisões em Estudos de Trade-Off:
-- **"Win-Win" (ganha-ganha)**:
-  🔹 Reduz o custo sem comprometer o desempenho
-  🔹 Aumenta o desempenho sem aumentar o custo
+- **"Win-Win" (ganha-ganha)**:<br>
+  🔹 Reduz o custo sem comprometer o desempenho<br>
+  🔹 Aumenta o desempenho sem aumentar o custo<br>
    Fácil de decidir, pois traz benefícios sem perdas
 
-- **Trade-offs difíceis**:
-  🔹 Reduzir custos pode comprometer a eficácia
-  🔹 Melhorar o desempenho pode aumentar o custo
+- **Trade-offs difíceis**:<br>
+  🔹 Reduzir custos pode comprometer a eficácia<br>
+  🔹 Melhorar o desempenho pode aumentar o custo<br>
    Necessário analisar impacto, riscos e viabilidade
 
 A tomada de decisão nesses casos exige **experiência e análise detalhada**, garantindo que o projeto entregue um **sistema eficiente e seguro** dentro das limitações financeiras e operacionais.
 
+---
 ### Impacto do Design nos Custos do Ciclo de Vida
 
 A **FIGURE 2.5-1** ilustra como os custos de um projeto ou programa são **"fixados" (locked in) logo nas fases iniciais do design e desenvolvimento**. Essa tendência é evidenciada pelo fato de que:
@@ -202,6 +203,7 @@ Outro ponto crítico é que **o custo de modificar o design cresce ao longo do t
 
 Isso reforça a **importância da validação precoce**, garantindo que os requisitos e expectativas dos stakeholders sejam atendidos antes que os custos aumentem exponencialmente.
 
+---
 ### Integração de Sistemas Humanos (HSI) no Processo de Engenharia de Sistemas
 
 O processo de **Engenharia de Sistemas (SE)** não se limita apenas ao desenvolvimento de **hardware** e **software**, mas também deve abranger a **Integração de Sistemas Humanos (HSI – Human Systems Integration)**.
@@ -217,6 +219,7 @@ O processo de **Engenharia de Sistemas (SE)** não se limita apenas ao desenvolv
 
 Essa abordagem assegura que os sistemas sejam projetados **não apenas para funcionar, mas para serem operados com segurança e eficiência por humanos**.
 
+---
 ### Integração de Sistemas Humanos (HSI) no Processo de Engenharia de Sistemas
 
 A **Engenharia de Sistemas (SE)** deve considerar **todos os elementos** que compõem um sistema, incluindo **hardware, software e a interação humana**.

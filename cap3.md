@@ -1,4 +1,6 @@
-
+###
+IEEE 21840
+IEEE 15288
 Um dos conceitos fundamentais utilizados na NASA para a gestão de grandes sistemas é o ciclo de vida de programa/projeto, que categoriza tudo o que deve ser feito para realizar um programa ou projeto em fases distintas, separadas por Pontos de Decisão Chave (KDPs). Os KDPs são eventos nos quais a autoridade responsável pela decisão determina a prontidão de um programa/projeto para avançar para a próxima fase do ciclo de vida (ou para o próximo KDP). Os limites das fases são definidos de forma a fornecer pontos naturais para decisões de "prosseguir" ou "não prosseguir". As decisões para avançar podem ser condicionadas a pendências que devem ser resolvidas dentro de um prazo acordado. Um programa ou projeto que não passar por um KDP pode ter a chance de tentar novamente após corrigir as deficiências que impediram sua aprovação, ou pode ser encerrado.
 
 Todos os sistemas começam com o reconhecimento de uma necessidade ou a descoberta de uma oportunidade e avançam por várias etapas de desenvolvimento até o final do projeto. Embora os impactos mais significativos das atividades de análise e otimização associadas à engenharia de sistemas sejam obtidos nas fases iniciais, as decisões que afetam os custos continuam a ser influenciadas pela abordagem sistêmica mesmo à medida que o ciclo de vida do sistema se aproxima do fim.
