@@ -1,3 +1,5 @@
+## System processes design
+
 Este capítulo descreve as atividades nos processos de design de sistemas listados na FIGURA 2.1-1. O capítulo está dividido em seções correspondentes aos processos de 1 a 4 listados na FIGURA 2.1-1. As tarefas dentro de cada processo são discutidas em termos de entradas, atividades e saídas. Orientações adicionais são fornecidas com exemplos relevantes para projetos da NASA.
 
 Os processos de design de sistemas são interdependentes, altamente iterativos e recursivos, resultando em um conjunto validado de requisitos e em uma solução de design que atende a um conjunto de expectativas das partes interessadas. Existem quatro processos de design de sistemas: desenvolvimento das expectativas das partes interessadas, requisitos técnicos, decomposições lógicas e soluções de design.
@@ -13,7 +15,7 @@ Esse ciclo continua até que o sistema—incluindo arquitetura, conceito de oper
 
 O nível de detalhamento do design deve ser suficiente para permitir a verificação analítica do projeto em relação aos requisitos. O design deve ser viável e credível quando avaliado por uma equipe de revisão independente experiente e deve ter profundidade suficiente para apoiar a modelagem de custos e a avaliação operacional.
 
-Assim que o sistema atende às expectativas das partes interessadas, a equipe de estudo formaliza os produtos como referência e se prepara para a próxima fase. Muitas vezes, níveis intermediários de decomposição são validados como parte do processo.
+Assim que o sistema atender às expectativas das partes interessadas, a equipe de estudo formaliza os produtos como referência e se prepara para a próxima fase. Muitas vezes, níveis intermediários de decomposição são validados como parte do processo.
 
 No próximo nível de decomposição, os requisitos derivados (e alocados) formalizados tornam-se o conjunto de requisitos de alto nível para os elementos decompostos, e o processo recomeça. Esses processos de design de sistemas são aplicados principalmente na Pré-Fase A e continuam até a Fase C.
 Os processos de design de sistemas durante a Pré-Fase A focam na produção de um design viável que levará à aprovação da Formulação. Durante a Fase A, são explorados designs alternativos e maior maturidade analítica para otimizar a arquitetura do sistema. A Fase B resulta em um design preliminar que atende aos critérios de aprovação. Na Fase C, são concluídos os designs detalhados para construção.
@@ -29,6 +31,7 @@ O Processo de Definição das Expectativas das Partes Interessadas é o processo
 #### 4.1.1 Descrição do Processo
 
 A FIGURA 4.1-1 apresenta um diagrama típico do fluxo do Processo de Definição das Expectativas das Partes Interessadas, identificando as entradas, saídas e atividades típicas consideradas para definir essas expectativas.
+![alt text](images/image5.png)
 
 As entradas típicas necessárias para esse processo incluem:
 
@@ -42,7 +45,7 @@ As entradas típicas necessárias para esse processo incluem:
 
 ##### 4.1.1.2.1 Identificação das Partes Interessadas
 
-Uma "parte interessada" é um grupo ou indivíduo afetado pelo produto ou projeto, ou que tem algum interesse nele. Os principais envolvidos em um projeto/produto são chamados de partes interessadas-chave. Uma dessas partes interessadas-chave é sempre o objetivos estratégicos são então traduzidos em requisitos técnicos e funcionais para o sistema a ser desenvolvido.
+Uma "parte interessada" é um grupo ou indivíduo afetado pelo produto ou projeto, ou que tem algum interesse nele. Os principais envolvidos em um projeto/produto são chamados de partes interessadas-chave. Uma dessas partes interessadas-chave é sempre o objetivo estratégico são então traduzidos em requisitos técnicos e funcionais para o sistema a ser desenvolvido.
 
 A compreensão profunda das expectativas das partes interessadas é essencial no processo de engenharia de sistemas. Isso evita ambiguidades e desalinhamentos entre as necessidades do cliente e a solução projetada. Quando todas as partes concordam com as funções, características, comportamentos, aparência e desempenho do produto, cria-se um entendimento mais realista sobre o que será entregue. Além disso, esse alinhamento reduz a possibilidade de mudanças significativas nos requisitos ao longo do ciclo de vida do projeto, evitando retrabalho e custos adicionais.
 
@@ -50,14 +53,14 @@ As expectativas podem ser coletadas por meio de entrevistas, discussões, pesqui
 
 A Figura 4.1-2 ilustra como as informações evoluem para um conjunto de requisitos de alto nível, destacando caminhos de validação. Essas informações são fundamentais para garantir que o sistema atenda aos objetivos estratégicos da missão, que podem variar dependendo da categoria da missão. Por exemplo, missões científicas são geralmente impulsionadas pelos planos estratégicos da Diretoria de Missão Científica da NASA, enquanto missões de exploração podem ser determinadas por diretrizes presidenciais. Essa clareza de propósito ajuda a equipe do projeto a trabalhar em direção a uma visão comum e a garantir que as decisões de design estejam alinhadas com os objetivos estratégicos.
 
+![alt text](images/image6.png)
 
-garantir que todas as expectativas sejam identificadas e documentadas desde o início, para evitar mudanças tardias e dispendiosas no projeto.
 
-Os objetivos definidos formam a base para o desenvolvimento da missão, portanto, devem ser claramente articulados. Além disso, o projeto deve considerar todas as restrições aplicáveis. Uma restrição é uma condição que precisa ser atendida, podendo ser imposta por fatores externos, como mecânica orbital, sistemas legados que precisam ser utilizados, regulamentações, limitações tecnológicas ou restrições orçamentárias. Os conceitos operacionais e as restrições devem estar incluídos na definição das expectativas dos stakeholders, pois determinam como o sistema deve ser operado para atingir os objetivos da missão.
+garantir que todas as expectativas sejam identificadas e documentadas desde o início, para evitar mudanças tardias e dispendiosas no projeto , os objetivos definidos formam a base para o desenvolvimento da missão, portanto, devem ser claramente articulados. Além disso, o projeto deve considerar todas as restrições aplicáveis. Uma restrição é uma condição que precisa ser atendida, podendo ser imposta por fatores externos, como mecânica orbital, sistemas legados que precisam ser utilizados, regulamentações, limitações tecnológicas ou restrições orçamentárias. Os conceitos operacionais e as restrições devem estar incluídos na definição das expectativas dos stakeholders, pois determinam como o sistema deve ser operado para atingir os objetivos da missão.
 
 É fundamental envolver os stakeholders em todas as fases do projeto. Esse envolvimento deve ser estruturado como um ciclo de feedback contínuo, o que aumenta significativamente as chances de sucesso da missão. Essa participação ativa constrói a confiança no produto final e facilita a validação e aceitação do sistema pelo público-alvo.
 
-O engenheiro de sistemas deve interagir com diferentes comunidades especializadas, como aquelas envolvidas na proteção de ativos espaciais, integração de sistemas humanos, garantia da qualidade e confiabilidade. Isso garante que todas as expectativas relevantes sejam capturadas, evitando surpresas no ciclo de vida do projeto. Por exemplo, a proteção de ativos espaciais pode exigir criptografia adicional para comandos de link direto, blindagem extra para sistemas de radiofrequência ou o uso de frequências diferentes—alterações que podem ser caras se forem identificadas tarde demais no processo.
+O engenheiro de sistemas deve interagir com diferentes comunidades especializadas, como aquelas envolvidas na proteção de ativos espaciais, integração de sistemas humanos, garantia da qualidade e confiabilidade. Isso garante que todas as expectativas relevantes sejam capturadas, evitando surpresas no ciclo de vida do projeto. Por exemplo, a proteção de ativos espaciais pode exigir criptografia adicional para comandos de link direto, blindagem extra para sistemas de radiofrequência ou o uso de frequências,  diferentes alterações que podem ser caras se forem identificadas tarde demais no processo.
 
 Para definir metas e objetivos, é necessário extrair dos stakeholders suas necessidades, desejos, capacidades, interfaces externas, suposições e restrições. Chegar a um conjunto acordado de objetivos pode ser um processo longo e desafiador. No entanto, a iteração proativa com os stakeholders ao longo de todo o processo de engenharia de sistemas é essencial para garantir um entendimento comum sobre o que deve ser feito e quais recursos serão necessários para realizar a missão com sucesso.
 Os principais stakeholders e suas respectivas autoridades decisórias devem ser identificados para facilitar a resolução de conflitos durante o projeto. A definição clara das Necessidades, Metas e Objetivos (NGOs) garante que todas as partes envolvidas – implementadores, clientes e outros stakeholders – estejam alinhadas desde o início quanto ao problema a ser resolvido e ao seu escopo. É importante ressaltar que os NGOs não são requisitos contratuais nem especificações de projeto.
