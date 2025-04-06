@@ -11,17 +11,14 @@
             "id": "fcf518db454db732",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -95,
-                  "y": 10,
-                  "zoom": 0
-                }
+                "file": "projeto/definicoes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "definicoes"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "projeto/definicoes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for definicoes"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "projeto/definicoes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from definicoes"
             }
           },
           {
@@ -145,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "projeto/definicoes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of definicoes"
             }
           }
         ]
@@ -173,12 +170,12 @@
   },
   "active": "fcf518db454db732",
   "lastOpenFiles": [
-    "projeto/definicoes.md",
+    "3_130_DSM_2010-Stakeholder-Networks.pdf",
     "Untitled.canvas",
+    "projeto/definicoes.md",
     "stakeholder.md",
     "nasa_systems_engineering_handbook_0.pdf",
     "missao.md",
-    "cap2.md",
-    "3_130_DSM_2010-Stakeholder-Networks.pdf"
+    "cap2.md"
   ]
 }
