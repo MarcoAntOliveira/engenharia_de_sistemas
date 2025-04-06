@@ -179,6 +179,7 @@ Enquanto o Projeto será tecnicamente desafiador, há indícios iniciais de que 
 É por isso que este estudo de caso é especialmente interessante para pesquisadores e gerentes de projetos conduzirem a análise da Rede de Valor dos Stakeholders, a fim de entender totalmente os impactos das interações em rede dos stakeholders no sucesso do Projeto, que será considerado como a organização focal aqui.
 
 ---
+![alt text](images/image7.png)
 
 ### Figura 3. Mapa de Stakeholders para um projeto multinacional de energia
 

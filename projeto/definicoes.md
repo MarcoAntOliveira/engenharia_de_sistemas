@@ -1,4 +1,3 @@
-## Definições
 
 Como uma equipe, discuta, converse e escreva uma definição para os itens a seguir. Essas
 definições devem ser originais. Isso significa que você não deve procurá-las em um livro ou na
@@ -23,13 +22,10 @@ ser seguido para tentar chegar a um consenso fica a seu critério.
 
 
 ## Análise das partes interessadas
-1. Você também pode procurar outras fontes de dados (inclusive na Internet) para ler sobre a
-história de algum projeto semelhante e qualquer outra informação relevante sobre este ou
-outros projetos semelhantes.
-----
- 2. Identifique cuidadosamente as partes interessadas envolvidas no projeto. Forneça uma
-breve descrição de cada parte interessada em poucas frases. Concentre-se em suas
-funções, necessidades e objetivos.
+1. Você também pode procurar outras fontes de dados (inclusive na Internet) para ler sobre a história de algum projeto semelhante e qualquer outra informação relevante sobre este ou outros projetos semelhantes.
+
+---
+ 2. Identifique cuidadosamente as partes interessadas envolvidas no projeto. Forneça uma breve descrição de cada parte interessada em poucas frases. Concentre-se em suas funções, necessidades e objetivos.
 - Órgãos Governamentais
 São instituições públicas nacionais, estaduais ou municipais interessadas em adquirir tecnologias que aprimorem a resposta a desastres naturais. Seu objetivo é garantir soluções eficientes, seguras e de custo viável para operações de resgate em larga escala, como em enchentes. Esses órgãos também são responsáveis por aprovar, regulamentar e financiar o uso de tecnologias no contexto de defesa civil.
 
@@ -48,23 +44,20 @@ São os responsáveis por projetar e implementar o drone. Precisam de requisitos
 - ONGs e Instituições Humanitárias
 Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso do drone em áreas de difícil acesso ou em regiões com pouco suporte governamental.
 
+- Investidores - pessoal interessado em ajudar financeiramente na causa
+
 
 ----
-3. Crie uma tabela em que, para cada parte interessada identificada acima, você liste seus
-inputs e outputs em termos de fluxos de valor. Para encontrar os inputs, pergunte o que
-cada um deles precisa receber de outros participantes para cumprir sua função. Exemplos
-de fluxos de valor são informações, dinheiro, aprovações, bens físicos, serviços etc. .....
-Seja o mais específico possível. Os resultados são coisas fornecidas por um participante
-para um ou mais outros participantes. Um exemplo dessa tabela é mostrado na aula
-anterior.
+3. Crie uma tabela em que, para cada parte interessada identificada acima, você liste seus inputs e outputs em termos de fluxos de valor. Para encontrar os inputs, pergunte o que cada um deles precisa receber de outros participantes para cumprir sua função. Exemplos de fluxos de valor são informações, dinheiro, aprovações, bens físicos, serviços etc. ..... Seja o mais específico possível. Os resultados são coisas fornecidas por um participante para um ou mais outros participantes. Um exemplo dessa tabela é mostrado na aula anterior.
 
-| Stakeholder A | Stakeholder B | Pontuação de Influência Mútua |
-|----------------|----------------|-------------------------------|
-| Projeto        | Corp. do País Hospedeiro | 0,89                |
-| Empresa        | Investidores              | 0,74                |
-| Projeto        | Governo do País Hospedeiro| 0,65                |
-| Projeto        | Governo Local             | 0,59                |
-| Empresa        | Fornecedores              | 0,53                |
+| Stakeholder A | Stakeholder B | Pontuação de Influência Mútua | fluxos de valor |
+|----------------|----------------|-------------------------------|-------------------------------|
+| Orgãos gorvenamentais | Corpo de Bombeiros |0,89                |     |
+| Corpo de Bombeiros    | Investidores              | 0,74                |   |
+| Corpo de Bombeiros    | Treinadores              | 0,74                |   |
+| Projeto        | Governo Local             | 0,59                |    |
+| Empresa        | Fornecedores              | 0,53                |     |
+
 ---
 4. Crie duas versões de um mapa de rede das partes interessadas. Primeiro, crie um modelo
 clássico de "hub-and-spoke" em que sua equipe seja a organização central. Isso significa
