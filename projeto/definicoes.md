@@ -7,7 +7,7 @@ até agora e nas discussões entre a equipe. Se não for possível chegar a uma 
 você deve dizer isso e por que, em seguida fornecer a(s) definição(ões) alternativa(s). O processo a
 ser seguido para tentar chegar a um consenso fica a seu critério.
 
-- Sistema - Um "sistema" é a combinação de elementos que funcionam juntos para produzir a capacidade necessária para atender a uma demanda.
+- Sistema - Um "sistema" é a combinação de elementos que funcionam juntos para produzir a capacidade necessária para atender a uma demanda.é uma commbinação de elementos de uma mesma area ou de areas distintas funcionanddo em conjunto parra  uma mesma finalidade.
 
 - Engenharia
 
@@ -23,20 +23,50 @@ ser seguido para tentar chegar a um consenso fica a seu critério.
 
 
 ## Análise das partes interessadas
-- Você também pode procurar outras fontes de dados (inclusive na Internet) para ler sobre a
+1. Você também pode procurar outras fontes de dados (inclusive na Internet) para ler sobre a
 história de algum projeto semelhante e qualquer outra informação relevante sobre este ou
 outros projetos semelhantes.
-- Identifique cuidadosamente as partes interessadas envolvidas no projeto. Forneça uma
+----
+ 2. Identifique cuidadosamente as partes interessadas envolvidas no projeto. Forneça uma
 breve descrição de cada parte interessada em poucas frases. Concentre-se em suas
 funções, necessidades e objetivos.
-- Crie uma tabela em que, para cada parte interessada identificada acima, você liste seus
+- Órgãos Governamentais
+São instituições públicas nacionais, estaduais ou municipais interessadas em adquirir tecnologias que aprimorem a resposta a desastres naturais. Seu objetivo é garantir soluções eficientes, seguras e de custo viável para operações de resgate em larga escala, como em enchentes. Esses órgãos também são responsáveis por aprovar, regulamentar e financiar o uso de tecnologias no contexto de defesa civil.
+
+- Corpo de Bombeiros
+Principal instituição responsável por ações de busca e salvamento em situações de emergência. Necessitam de uma solução robusta, confiável e fácil de operar em campo, que auxilie na localização de vítimas e mapeamento de áreas afetadas, reduzindo riscos aos seus agentes e otimizando os esforços de resgate.
+
+- Equipe de Treinamento e Operação
+Profissionais técnicos responsáveis por capacitar os operadores do drone. Precisam conhecer tanto os aspectos específicos da aeronave (como autonomia, sensores e rotas) quanto os requisitos operacionais em campo. Suas necessidades envolvem documentação clara, interface de controle intuitiva e acesso a suporte técnico.
+
+- Vítimas e Comunidades Afetadas
+Embora não operem diretamente o sistema, são o público-alvo da missão do drone. As necessidades dessas pessoas devem influenciar as decisões do projeto: rapidez no resgate, precisão na localização, e confiabilidade da missão.
+
+- Equipe de Desenvolvimento (Engenheiros e Programadores)
+São os responsáveis por projetar e implementar o drone. Precisam de requisitos bem definidos, acesso a recursos (hardware e software) e feedback constante das demais partes interessadas para garantir que o produto atenda às expectativas.
+
+- ONGs e Instituições Humanitárias
+Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso do drone em áreas de difícil acesso ou em regiões com pouco suporte governamental.
+
+
+----
+3. Crie uma tabela em que, para cada parte interessada identificada acima, você liste seus
 inputs e outputs em termos de fluxos de valor. Para encontrar os inputs, pergunte o que
 cada um deles precisa receber de outros participantes para cumprir sua função. Exemplos
 de fluxos de valor são informações, dinheiro, aprovações, bens físicos, serviços etc. .....
 Seja o mais específico possível. Os resultados são coisas fornecidas por um participante
 para um ou mais outros participantes. Um exemplo dessa tabela é mostrado na aula
 anterior.
-- Crie duas versões de um mapa de rede das partes interessadas. Primeiro, crie um modelo
+
+| Stakeholder A | Stakeholder B | Pontuação de Influência Mútua |
+|----------------|----------------|-------------------------------|
+| Projeto        | Corp. do País Hospedeiro | 0,89                |
+| Empresa        | Investidores              | 0,74                |
+| Projeto        | Governo do País Hospedeiro| 0,65                |
+| Projeto        | Governo Local             | 0,59                |
+| Empresa        | Fornecedores              | 0,53                |
+---
+4. Crie duas versões de um mapa de rede das partes interessadas. Primeiro, crie um modelo
 clássico de "hub-and-spoke" em que sua equipe seja a organização central. Isso significa
 que apenas as entradas/saídas que envolvem sua equipe diretamente da tabela acima
 serão exibidas. Em segundo lugar, crie um mapa completo da Rede de Valor das Partes
@@ -45,6 +75,8 @@ também incluirá relações indiretas que não envolvam a sua equipe. Use setas
 para criar o mapa SVN.
 • Comente sobre as percepções que você conseguiu obter com essa análise das partes
 interessadas do projeto, se houver.
+
+---
 
 
 ## Conceito de Operações(CONOPS)
