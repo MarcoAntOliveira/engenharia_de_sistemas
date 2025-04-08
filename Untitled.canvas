@@ -1,9 +1,38 @@
 {
 	"nodes":[
-		{"id":"3a8eb53d7cc715a0","x":-720,"y":-20,"width":250,"height":60,"type":"text","text":""},
-		{"id":"089273b229dccfaa","x":-340,"y":-340,"width":250,"height":60,"type":"text","text":""}
+		{"id":"3a8eb53d7cc715a0","type":"text","text":"Fornecedores ","x":-1280,"y":-320,"width":250,"height":60},
+		{"id":"089273b229dccfaa","type":"text","text":"Empresa","x":-820,"y":-320,"width":250,"height":60,"color":"#1d08ba"},
+		{"id":"e019fa48de218b7a","type":"text","text":"Projeto","x":-340,"y":-320,"width":250,"height":60},
+		{"id":"150d17a78fc8b36a","type":"text","text":"corpo de Bombeiros","x":180,"y":-320,"width":250,"height":60,"color":"1"},
+		{"id":"ad39dfc303ae7a96","type":"text","text":"Governo local","x":-340,"y":-560,"width":250,"height":60,"color":"1"},
+		{"id":"9295f9a5ff92d8e1","type":"text","text":"Investidores ","x":-340,"y":-160,"width":250,"height":60,"color":"#1e28b8"},
+		{"id":"a884e02e77f953e7","type":"text","text":"Treinadores","x":-340,"y":80,"width":250,"height":60,"color":"#1411a6"},
+		{"id":"e8e19b8d73b57360","type":"text","text":"Hub and spoke","x":-315,"y":-840,"width":200,"height":50},
+		{"id":"93229e85be4a66dc","type":"text","text":"orgãos governamentais","x":-340,"y":640,"width":250,"height":60,"color":"1"},
+		{"id":"54dbe7912ea808cd","type":"text","text":"Corpo de Bombeiros","x":-340,"y":920,"width":250,"height":60,"color":"1"},
+		{"id":"07c0f9d958900f88","type":"text","text":"Investidores","x":-340,"y":1180,"width":250,"height":60,"color":"#111cb6"},
+		{"id":"584c7a486a7063ee","type":"text","text":"Projeto","x":-340,"y":1420,"width":250,"height":60,"color":"4"},
+		{"id":"ad3f18d12f957a3f","type":"text","text":"Empresa","x":-340,"y":1720,"width":250,"height":60,"color":"3"},
+		{"id":"01e69f9a3c8fffc6","type":"text","text":"Treinadores","x":211,"y":920,"width":250,"height":60,"color":"#2926ba"},
+		{"id":"8669c474420d5546","type":"text","text":"Fornecedores","x":240,"y":1720,"width":250,"height":60,"color":"#143d90"},
+		{"id":"91bc766f5b1ef26b","type":"text","text":"Governo Local","x":211,"y":1412,"width":250,"height":76,"color":"1"},
+		{"id":"8d7213ee64d0446f","type":"text","text":"Azul -  Informações e relatorios\n\n\nVerde - Recursos finaceiros\n\nVermelho - bens e serviço\n\n- **Corpo de Bombeiros** é um elo central, recebendo inputs regulatórios e influenciando vários outros (investidores e treinadores).\n    \n- **Investidores** dependem diretamente da avaliação técnica do Corpo de Bombeiros, o que mostra a **importância da segurança para a continuidade do financiamento**.\n    \n- **Órgãos Governamentais** têm alta influência, mas poucos retornos diretos — sua atuação é mais normativa.\n    \n- **Fornecedores** são mais reativos no sistema: recebem e executam, com pouca influência estratégica.\n    \n- O **projeto (sua equipe)** está no coração da interação com governo local e bombeiros, e indiretamente afeta todo o ecossistema.","x":-2240,"y":140,"width":600,"height":780}
 	],
 	"edges":[
-		{"id":"035e5be91954fcda","fromNode":"3a8eb53d7cc715a0","fromSide":"top","toNode":"089273b229dccfaa","toSide":"bottom","color":"1"}
+		{"id":"0412f972d0513cf5","fromNode":"089273b229dccfaa","fromSide":"right","toNode":"e019fa48de218b7a","toSide":"left"},
+		{"id":"d7e05601daba608d","fromNode":"e019fa48de218b7a","fromSide":"top","toNode":"ad39dfc303ae7a96","toSide":"bottom"},
+		{"id":"31122c1bc83020e3","fromNode":"e019fa48de218b7a","fromSide":"right","toNode":"150d17a78fc8b36a","toSide":"left"},
+		{"id":"b0fd02c9bf9ada85","fromNode":"e019fa48de218b7a","fromSide":"bottom","toNode":"9295f9a5ff92d8e1","toSide":"top"},
+		{"id":"7760091b15ba9154","fromNode":"9295f9a5ff92d8e1","fromSide":"bottom","toNode":"a884e02e77f953e7","toSide":"top"},
+		{"id":"05c7787426128c84","fromNode":"089273b229dccfaa","fromSide":"bottom","toNode":"3a8eb53d7cc715a0","toSide":"bottom"},
+		{"id":"fa9da138204bc54b","fromNode":"3a8eb53d7cc715a0","fromSide":"top","toNode":"089273b229dccfaa","toSide":"top"},
+		{"id":"1c2740bb3cddd6d7","fromNode":"93229e85be4a66dc","fromSide":"bottom","toNode":"54dbe7912ea808cd","toSide":"top","color":"4"},
+		{"id":"93272635d2c810da","fromNode":"54dbe7912ea808cd","fromSide":"right","toNode":"01e69f9a3c8fffc6","toSide":"left","color":"1"},
+		{"id":"177896ce042b352b","fromNode":"54dbe7912ea808cd","fromSide":"bottom","toNode":"07c0f9d958900f88","toSide":"top","color":"1"},
+		{"id":"0d74a94f41c0d6ac","fromNode":"07c0f9d958900f88","fromSide":"bottom","toNode":"584c7a486a7063ee","toSide":"top","color":"4"},
+		{"id":"78b46f12dabc6bec","fromNode":"ad3f18d12f957a3f","fromSide":"top","toNode":"584c7a486a7063ee","toSide":"bottom","color":"#0f15bd"},
+		{"id":"1f60b0da52fd672d","fromNode":"584c7a486a7063ee","fromSide":"right","toNode":"91bc766f5b1ef26b","toSide":"left","color":"#151fa8"},
+		{"id":"7bd24cbfc466b44b","fromNode":"91bc766f5b1ef26b","fromSide":"top","toNode":"01e69f9a3c8fffc6","toSide":"bottom","color":"4"},
+		{"id":"3ccf218218eba493","fromNode":"ad3f18d12f957a3f","fromSide":"right","toNode":"8669c474420d5546","toSide":"left","color":"#171db5"}
 	]
 }

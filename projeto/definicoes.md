@@ -50,18 +50,18 @@ Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso
 ----
 3. Crie uma tabela em que, para cada parte interessada identificada acima, você liste seus inputs e outputs em termos de fluxos de valor. Para encontrar os inputs, pergunte o que cada um deles precisa receber de outros participantes para cumprir sua função. Exemplos de fluxos de valor são informações, dinheiro, aprovações, bens físicos, serviços etc. ..... Seja o mais específico possível. Os resultados são coisas fornecidas por um participante para um ou mais outros participantes. Um exemplo dessa tabela é mostrado na aula anterior.
 
-| Stakeholder A | Stakeholder B | Pontuação de Influência Mútua | fluxos de valor |
-|----------------|----------------|-------------------------------|-------------------------------|
-| Orgãos gorvenamentais | Corpo de Bombeiros |0,89                |     |
-| Corpo de Bombeiros    | Investidores              | 0,74                |   |
-| Corpo de Bombeiros    | Treinadores              | 0,74                |   |
-| Projeto        | Governo Local             | 0,59                |    |
-| Empresa        | Fornecedores              | 0,53                |     |
+| Stakeholder A         | Stakeholder B      | Pontuação de Influência Mútua | Inputs |Outputs |
+| --------------------- | ------------------ | ----------------------------- | --------------- |--------------- |
+| Orgãos gorvenamentais | Corpo de Bombeiros | 0,89                          | Legislação, financiamento , autorização de operação               |    relatórios de conformidade, parecere técnicos, laudos de vistoria              |
+| Corpo de Bombeiros    | Investidores       | 0,50                         | Relatórios de vistoria certificações de segurança     | Financiamento de melhorias , suporte a infraestrutura                |
+| Corpo de Bombeiros    | Treinadores        | 0.40                         |        Necessidades de formação, exigências técnicas           |     Capacitação, programas de treinamento, certificações            |
+| Projeto               | Governo Local      | 0,59                          |  Relatórios de progresso, propostas de impacto socioeconômico               |     Licenciamento, apoio político, facilitação de trâmites            |
+| Empresa               | Fornecedores       | 0,45                          |   Pagamentos, contratos, especificações técnicas              |  Entrega de materiais, prestação de serviços, suporte técnico               |
+|Projeto|  Empresa|	Especificações técnicas, desenhos do modelo, requisitos de engenharia | Protótipos físicos, produção em série, ajustes conforme viabilidade técnica|
 
 ---
 4. Crie duas versões de um mapa de rede das partes interessadas. Primeiro, crie um modelo clássico de "hub-and-spoke" em que sua equipe seja a organização central. Isso significa que apenas as entradas/saídas que envolvem sua equipe diretamente da tabela acima serão exibidas. Em segundo lugar, crie um mapa completo da Rede de Valor das Partes Interessadas (SVN) que inclua todas as entradas/saídas da tabela e provavelmente também incluirá relações indiretas que não envolvam a sua equipe. Use setas coloridas para criar o mapa SVN.
-• Comente sobre as percepções que você conseguiu obter com essa análise das partes
-interessadas do projeto, se houver.
+	• Comente sobre as percepções que você conseguiu obter com essa análise das partes interessadas do projeto, se houver.
 
 ---
 
@@ -72,3 +72,4 @@ fornecido na palestra ou outro que você considere adequado. Esse CONOPS está b
 conforme o livro NASA SE define o que é um CONOPS? Como você melhoraria
 esse CONOPS, se for o caso.
 - Crie e descreva/visualize sua própria versão de um CONOPS para o projeto. Esse CONOPS provavelmente deve ser um pouco mais amplo do que o discutido acima. Comente quais foram os principais desafios na definição de um CONOPS detalhado nesse estágio.
+[text](obsidian://open?vault%3Dengenharia_de_sistemas%26file%3Dprojeto%2FUntitled.png)
