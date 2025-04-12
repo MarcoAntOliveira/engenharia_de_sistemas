@@ -26,7 +26,7 @@ ser seguido para tentar chegar a um consenso fica a seu critério.
 
 ---
  2. Identifique cuidadosamente as partes interessadas envolvidas no projeto. Forneça uma breve descrição de cada parte interessada em poucas frases. Concentre-se em suas funções, necessidades e objetivos.
-- Órgãos Governamentais
+- Defesa Civil
 São instituições públicas nacionais, estaduais ou municipais interessadas em adquirir tecnologias que aprimorem a resposta a desastres naturais. Seu objetivo é garantir soluções eficientes, seguras e de custo viável para operações de resgate em larga escala, como em enchentes. Esses órgãos também são responsáveis por aprovar, regulamentar e financiar o uso de tecnologias no contexto de defesa civil.
 
 - Corpo de Bombeiros
@@ -50,14 +50,27 @@ Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso
 ----
 3. Crie uma tabela em que, para cada parte interessada identificada acima, você liste seus inputs e outputs em termos de fluxos de valor. Para encontrar os inputs, pergunte o que cada um deles precisa receber de outros participantes para cumprir sua função. Exemplos de fluxos de valor são informações, dinheiro, aprovações, bens físicos, serviços etc. ..... Seja o mais específico possível. Os resultados são coisas fornecidas por um participante para um ou mais outros participantes. Um exemplo dessa tabela é mostrado na aula anterior.
 
-| Stakeholder A         | Stakeholder B      | Pontuação de Influência Mútua | Inputs |Outputs |
-| --------------------- | ------------------ | ----------------------------- | --------------- |--------------- |
-| Orgãos gorvenamentais | Corpo de Bombeiros | 0,89                          | Legislação, financiamento , autorização de operação               |    relatórios de conformidade, parecere técnicos, laudos de vistoria              |
-| Corpo de Bombeiros    | Investidores       | 0,50                         | Relatórios de vistoria certificações de segurança     | Financiamento de melhorias , suporte a infraestrutura                |
-| Corpo de Bombeiros    | Treinadores        | 0.40                         |        Necessidades de formação, exigências técnicas           |     Capacitação, programas de treinamento, certificações            |
-| Projeto               | Governo Local      | 0,59                          |  Relatórios de progresso, propostas de impacto socioeconômico               |     Licenciamento, apoio político, facilitação de trâmites            |
-| Empresa               | Fornecedores       | 0,45                          |   Pagamentos, contratos, especificações técnicas              |  Entrega de materiais, prestação de serviços, suporte técnico               |
-|Projeto|  Empresa|	Especificações técnicas, desenhos do modelo, requisitos de engenharia | Protótipos físicos, produção em série, ajustes conforme viabilidade técnica|
+
+| **Stakeholder A**      | **Stakeholder B**     | **Pontuação de Influência Mútua** | **Inputs (de A para B)**                                      | **Outputs (de B para A)**                                     |
+|------------------------|------------------------|-----------------------------------|----------------------------------------------------------------|----------------------------------------------------------------|
+| Defesa Civil           | Corpo de Bombeiros     | 0,70                              | Informações estratégicas, alertas, relatórios                 | Apoio operacional, relatórios de campo                        |
+| Defesa Civil           | Treinadores            | 0,50                              | Solicitações de capacitação, diretrizes de segurança          | Programas de treinamento                                       |
+| Defesa Civil           | População              | 0,60                              | Treinamento, orientação, prevenção de riscos                  | Feedback comunitário, colaboração                             |
+| Corpo de Bombeiros     | Treinadores            | 0,60                              | Necessidades operacionais, lacunas de formação                | Capacitação, treinamento especializado                        |
+| Corpo de Bombeiros     | Investidores           | 0,40                              | Relatórios operacionais, planos de ação                       | Recursos, patrocínio                                           |
+| Corpo de Bombeiros     | Projeto                | 0,55                              | Cronogramas, relatórios, exigências técnicas                  | Integração operacional, feedbacks                              |
+| Investidores           | Projeto                | 0,72                              | Financiamento, metas e retorno esperado                       | Relatórios, indicadores de progresso                           |
+| Projeto                | Governo Local          | 0,65                              | Relatórios, documentação técnica, planejamento                | Licenciamento, apoio político                                  |
+| Governo Local          | Treinadores            | 0,50                              | Recursos financeiros e logísticos                             | Programas de capacitação comunitária                          |
+| Governo Local          | Fornecedores           | 0,45                              | Especificações técnicas e regulatórias                        | Materiais, produtos e execução                                |
+| Governo Local          | População              | 0,55                              | Treinamentos, prestação de serviços públicos                  | Informações sobre ocorrências, solicitações                   |
+| Projeto                | Empresa                | 0,65                              | Especificações técnicas, metas de produção                    | Protótipos, produtos, relatórios técnicos                      |
+| Empresa                | Fornecedores           | 0,60                              | Requisições de materiais e contratos                          | Materiais, entregas logísticas                                 |
+| Treinadores            | População              | 0,70                              | Treinamentos, capacitações                                    | Participação, resposta a emergências                          |
+| Projeto                | Treinadores            | 0,45                              | Objetivos e requisitos operacionais                           | Treinamento para stakeholders do projeto                      |
+| Projeto                | Fornecedores           | 0,50                              | Especificações de materiais e cronogramas                     | Materiais e execução técnica                                   |
+
+
 
 ---
 4. Crie duas versões de um mapa de rede das partes interessadas. Primeiro, crie um modelo clássico de "hub-and-spoke" em que sua equipe seja a organização central. Isso significa que apenas as entradas/saídas que envolvem sua equipe diretamente da tabela acima serão exibidas. Em segundo lugar, crie um mapa completo da Rede de Valor das Partes Interessadas (SVN) que inclua todas as entradas/saídas da tabela e provavelmente também incluirá relações indiretas que não envolvam a sua equipe. Use setas coloridas para criar o mapa SVN.
@@ -73,3 +86,8 @@ conforme o livro NASA SE define o que é um CONOPS? Como você melhoraria
 esse CONOPS, se for o caso.
 - Crie e descreva/visualize sua própria versão de um CONOPS para o projeto. Esse CONOPS provavelmente deve ser um pouco mais amplo do que o discutido acima. Comente quais foram os principais desafios na definição de um CONOPS detalhado nesse estágio.
 [text](obsidian://open?vault%3Dengenharia_de_sistemas%26file%3Dprojeto%2FUntitled.png)
+
+
+
+
+

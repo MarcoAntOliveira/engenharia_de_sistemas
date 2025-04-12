@@ -11,33 +11,14 @@
             "id": "f6259ee3dbb07460",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -1874.5145950323265,
-                  "y": 561.9242190981917,
-                  "zoom": 0.004317295114777742
-                }
+                "file": "projeto/definicoes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6601014d6178c044",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "22fd6454ac08a56e",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {},
               "icon": "lucide-file",
-              "title": "Slide Preview"
+              "title": "definicoes"
             }
           }
         ]
@@ -203,16 +184,17 @@
   },
   "active": "f6259ee3dbb07460",
   "lastOpenFiles": [
+    "analise_sistema.md",
+    "Excalidraw/svn.md",
+    "projeto/definicoes.md",
+    "Excalidraw/hub-spoke.md",
+    "3_130_DSM_2010-Stakeholder-Networks.pdf",
+    "Untitled.canvas",
     "projeto/relatorio_engenharia__sistemas-2.pdf",
     "projeto/relatorio.tex",
-    "Excalidraw/hub-spoke.md",
     "Excalidraw/Drawing 2025-04-08 09.37.29.excalidraw.md",
-    "Excalidraw/svn.md",
-    "Untitled.canvas",
     "projeto/hub-spoke.png",
-    "projeto/definicoes.md",
     "Excalidraw/Drawing 2025-04-08 08.26.31.excalidraw.md",
-    "3_130_DSM_2010-Stakeholder-Networks.pdf",
     "Excalidraw",
     "images/Untitled.png",
     "stakeholder.md",
