@@ -1,21 +1,3 @@
-<style>
-  h1 {
-    color: darkred;
-    text-align: center;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-
-  article {
-    font-size: 18px;
-    background-color:blue;
-    margin: 10px;
-    padding: 5px;
-  }
-</style>
 
 ## Sistema drone
 
