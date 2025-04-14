@@ -75,8 +75,9 @@ Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso
 ---
 4. Crie duas versões de um mapa de rede das partes interessadas. Primeiro, crie um modelo clássico de "hub-and-spoke" em que sua equipe seja a organização central. Isso significa que apenas as entradas/saídas que envolvem sua equipe diretamente da tabela acima serão exibidas. Em segundo lugar, crie um mapa completo da Rede de Valor das Partes Interessadas (SVN) que inclua todas as entradas/saídas da tabela e provavelmente também incluirá relações indiretas que não envolvam a sua equipe. Use setas coloridas para criar o mapa SVN.
 	• Comente sobre as percepções que você conseguiu obter com essa análise das partes interessadas do projeto, se houver.
-Percebe-se que para o projeto acontecer , a informação sobre a região sobre a qual oprojeto será aplicado influência diretamente o projeto , e é de vital importancia a troca deinformação das três camadas. 
+Percebe-se que para o projeto acontecer , a informação sobre a região sobre a qual oprojeto será aplicado influência diretamente o projeto , e é de vital importancia a troca deinformação das três camadas.
 ---
+![svn](svn.png)
 
 
 ## Conceito de Operações(CONOPS)
