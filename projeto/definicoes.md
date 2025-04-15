@@ -45,6 +45,8 @@ São os responsáveis por projetar e implementar o drone. Precisam de requisitos
 Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso do drone em áreas de difícil acesso ou em regiões com pouco suporte governamental.
 
 - Investidores - pessoal interessado em ajudar financeiramente na causa
+- ANAC
+- Governo federal
 
 
 ----
@@ -68,7 +70,7 @@ Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso
 | Empresa                | Fornecedores           | 0,60                              | Requisições de materiais e contratos                          | Materiais, entregas logísticas                                 |
 | Treinadores            | População              | 0,70                              | Treinamentos, capacitações                                    | Participação, resposta a emergências                          |
 | Projeto                | Treinadores            | 0,45                              | Objetivos e requisitos operacionais                           | Treinamento para stakeholders do projeto                      |
-| Projeto                | Fornecedores           | 0,50                              | Especificações de materiais e cronogramas                     | Materiais e execução técnica                                   |
+| Projeto                | Fornecedores           | 0,50                              | Especificações de materiais e cronogramas                     | Materiais e execução técnica |                              
 
 
 
