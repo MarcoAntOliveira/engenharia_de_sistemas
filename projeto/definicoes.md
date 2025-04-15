@@ -46,7 +46,8 @@ Muitas vezes estão envolvidas em apoio a desastres e podem ser parceiras no uso
 
 - Investidores - pessoal interessado em ajudar financeiramente na causa
 - ANAC
-- Governo federal
+- Governo federa
+-Universidades e centros de pesquisa
 
 
 ----
